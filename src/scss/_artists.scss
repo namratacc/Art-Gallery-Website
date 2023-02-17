@@ -1,0 +1,57 @@
+.artists {
+  background: $color-tertiary;
+  grid-column: full-start/ full-end;
+  text-align: center;
+  padding: 2rem;
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    gap: 2rem;
+    justify-content: space-evenly;
+    padding: 3rem;
+
+    &__item {
+      display: grid;
+      gap: 1rem;
+    }
+  }
+
+  &__img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    display: block;
+    background-position: center;
+    background-size: cover;
+    z-index: 10;
+
+    &-1 {
+      background-image: linear-gradient(
+          rgba($color-secondary, 0.1),
+          rgba($color-secondary, 0.1)
+        ),
+        url(../img/1.png);
+    }
+    &-2 {
+      background-image: linear-gradient(
+          rgba($color-secondary, 0.1),
+          rgba($color-secondary, 0.1)
+        ),
+        url(../img/5.png);
+    }
+    &-3 {
+      background-image: linear-gradient(
+          rgba($color-secondary, 0.1),
+          rgba($color-secondary, 0.1)
+        ),
+        url(../img/2.png);
+    }
+  }
+
+  &__details {
+    justify-self: center;
+    text-align: center;
+    color: #fff;
+  }
+}

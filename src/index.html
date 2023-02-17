@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Artology: Supporting local artists</title>
+    <link rel="stylesheet" href="scss/main.scss" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="container">
+
+    <div class="sidebar">
+      <div class="navigation"> 
+
+          <nav class="navigation__nav">
+            <div class="navigation__hamburger">
+              <div class="navigation__hamburger__bars">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+            </div>
+          
+            <ul class="navigation__list">
+            
+             <li class="navigation__item">
+               <a href="#" class="navigation__link">Home</a>
+              </li>
+
+              <li class="navigation__item">
+                <a href="#topartists" class="navigation__link">Top 3 Artists</a>
+              </li>
+             <li class="navigation__item">
+               <a href="#topsellers" class="navigation__link">Top Sellers</a>
+             </li>
+              <li class="navigation__item">
+               <a href="#testimonial" class="navigation__link">Testimonials</a>
+              </li>
+             <li class="navigation__item">
+                <a href="#gallery" class="navigation__link">Inspiration</a>
+              </li>
+            </ul>
+
+                     </nav>
+  
+      </div>
+    </div>
+    <div class="header">
+      <a href="#" class="header__logo-link">
+      <img src="img/logo-small.png" alt="Artology logo" class="header__logo" />
+    </a>
+      <h3 class="heading-3">Supporting Local Artists</h3>
+      <h1 class="heading-1">Australia's finest art in your space!</h1>
+      <button class="btn header__btn">View All Art</button>
+      
+      <div class="header__seenon-text">As seen on</div>
+      <div class="header__seenon-logos">
+        <img
+          class="header__seenon-logos-1"
+          src="img/logo-bbc.png"
+          alt="bbc logo"
+        />
+        <img
+          class="header__seenon-logos-2"
+          src="img/hg-logo.png"
+          alt="hg logo"
+        />
+        <img
+          class="header__seenon-logos-3"
+          src="img/vogue-logo.png"
+          alt="vogue logo"
+        />
+        <img
+          class="header__seenon-logos-4"
+          src="img/logo-forbes.png"
+          alt="forbes logo"
+        />
+      </div>
+    </div>
+
+    <section class="artists" id="topartists">
+      <h3 class="heading-3">Top 3 Artists</h3>
+      <div class="artists__list">
+        <div class="artists__list__item">
+          <div class="artists__img artists__img-1"></div>
+
+          <div class="artists__details">
+            <h4 class="heading-4">Erik Feinman</h4>
+            <p>Marikville, Sydney</p>
+          </div>
+        </div>
+
+        <div class="artists__list__item">
+          <div class="artists__img artists__img-2"></div>
+
+          <div class="artists__details">
+            <h4 class="heading-4">Kim Brown</h4>
+            <p>SouthPort, Melbourne</p>
+          </div>
+        </div>
+
+        <div class="artists__list__item">
+          <div class="artists__img artists__img-3"></div>
+
+          <div class="artists__details">
+            <h4 class="heading-4">Toby Ramsay</h4>
+            <p>Westend, Brisbane</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="topsellers" id="topsellers">
+      <h3 class="heading-3">Top Sellers</h3>
+      <div class="topsellers__items">
+        <div class="topseller">
+          <img src="img/art-2.png" alt="art 1" class="topseller__img" />
+          <h5 class="topseller__name">Beautiful Artwork</h5>
+
+          <div class="topseller__location">
+            <svg class="location__icon">
+              <use xlink:href="img/sprite.svg#icon-location2"></use>
+            </svg>
+            <p>Sydney</p>
+          </div>
+
+          <div class="topseller__artist">
+            <svg class="artist__icon">
+              <use xlink:href="img/sprite.svg#icon-user"></use>
+            </svg>
+            <p>Tom Hanks</p>
+          </div>
+
+          <div class="topseller__size">
+            <svg class="size__icon">
+              <use xlink:href="img/sprite.svg#icon-checkbox-unchecked"></use>
+            </svg>
+            <p>120 x 180</p>
+          </div>
+
+          <div class="topseller__price">
+            <svg class="price__icon">
+              <use xlink:href="img/sprite.svg#icon-coin-dollar"></use>
+            </svg>
+            <p>$1,00,000</p>
+          </div>
+          <button class="btn topseller__btn">Buy Now</button>
+        </div>
+
+        <div class="topseller">
+          <img src="img/art-3.png" alt="art 2" class="topseller__img" />
+          <h5 class="topseller__name">Beautiful Artwork</h5>
+
+          <div class="topseller__location">
+            <svg class="location__icon">
+              <use xlink:href="img/sprite.svg#icon-location2"></use>
+            </svg>
+            <p>Sydney</p>
+          </div>
+
+          <div class="topseller__artist">
+            <svg class="artist__icon">
+              <use xlink:href="img/sprite.svg#icon-user"></use>
+            </svg>
+            <p>Tom Hanks</p>
+          </div>
+
+          <div class="topseller__size">
+            <svg class="size__icon">
+              <use xlink:href="img/sprite.svg#icon-checkbox-unchecked"></use>
+            </svg>
+            <p>120 x 180</p>
+          </div>
+
+          <div class="topseller__price">
+            <svg class="price__icon">
+              <use xlink:href="img/sprite.svg#icon-coin-dollar"></use>
+            </svg>
+            <p>$1,00,000</p>
+          </div>
+          <button class="btn topseller__btn">Buy Now</button>
+        </div>
+
+        <div class="topseller">
+          <img src="img/art-4.png" alt="art 3" class="topseller__img" />
+          <h5 class="topseller__name">Beautiful Artwork</h5>
+
+          <div class="topseller__location">
+            <svg class="location__icon">
+              <use xlink:href="img/sprite.svg#icon-location2"></use>
+            </svg>
+            <p>Sydney</p>
+          </div>
+
+          <div class="topseller__artist">
+            <svg class="artist__icon">
+              <use xlink:href="img/sprite.svg#icon-user"></use>
+            </svg>
+            <p>Tom Hanks</p>
+          </div>
+
+          <div class="topseller__size">
+            <svg class="size__icon">
+              <use xlink:href="img/sprite.svg#icon-checkbox-unchecked"></use>
+            </svg>
+            <p>120 x 180</p>
+          </div>
+
+          <div class="topseller__price">
+            <svg class="price__icon">
+              <use xlink:href="img/sprite.svg#icon-coin-dollar"></use>
+            </svg>
+            <p>$1,00,000</p>
+          </div>
+          <button class="btn topseller__btn">Buy Now</button>
+        </div>
+
+        <div class="topseller">
+          <img src="img/art-5.png" alt="art 4" class="topseller__img" />
+          <h5 class="topseller__name">Beautiful Artwork</h5>
+
+          <div class="topseller__location">
+            <svg class="location__icon">
+              <use xlink:href="img/sprite.svg#icon-location2"></use>
+            </svg>
+            <p>Sydney</p>
+          </div>
+
+          <div class="topseller__artist">
+            <svg class="artist__icon">
+              <use xlink:href="img/sprite.svg#icon-user"></use>
+            </svg>
+            <p>Tom Hanks</p>
+          </div>
+
+          <div class="topseller__size">
+            <svg class="size__icon">
+              <use xlink:href="img/sprite.svg#icon-checkbox-unchecked"></use>
+            </svg>
+            <p>120 x 180</p>
+          </div>
+
+          <div class="topseller__price">
+            <svg class="price__icon">
+              <use xlink:href="img/sprite.svg#icon-coin-dollar"></use>
+            </svg>
+            <p>$1,00,000</p>
+          </div>
+          <button class="btn topseller__btn">Buy Now</button>
+        </div>
+
+        <div class="topseller">
+          <img src="img/art-6.png" alt="art 5" class="topseller__img" />
+          <h5 class="topseller__name">Beautiful Artwork</h5>
+
+          <div class="topseller__location">
+            <svg class="location__icon">
+              <use xlink:href="img/sprite.svg#icon-location2"></use>
+            </svg>
+            <p>Sydney</p>
+          </div>
+
+          <div class="topseller__artist">
+            <svg class="artist__icon">
+              <use xlink:href="img/sprite.svg#icon-user"></use>
+            </svg>
+            <p>Tom Hanks</p>
+          </div>
+
+          <div class="topseller__size">
+            <svg class="size__icon">
+              <use xlink:href="img/sprite.svg#icon-checkbox-unchecked"></use>
+            </svg>
+            <p>120 x 180</p>
+          </div>
+
+          <div class="topseller__price">
+            <svg class="price__icon">
+              <use xlink:href="img/sprite.svg#icon-coin-dollar"></use>
+            </svg>
+            <p>$1,00,000</p>
+          </div>
+          <button class="btn topseller__btn">Buy Now</button>
+        </div>
+
+        <div class="topseller">
+          <img src="img/art-7.png" alt="art 6" class="topseller__img" />
+          <h5 class="topseller__name">Beautiful Artwork</h5>
+
+          <div class="topseller__location">
+            <svg class="location__icon">
+              <use xlink:href="img/sprite.svg#icon-location2"></use>
+            </svg>
+            <p>Sydney</p>
+          </div>
+
+          <div class="topseller__artist">
+            <svg class="artist__icon">
+              <use xlink:href="img/sprite.svg#icon-user"></use>
+            </svg>
+            <p>Tom Hanks</p>
+          </div>
+
+          <div class="topseller__size">
+            <svg class="price__icon">
+              <use xlink:href="img/sprite.svg#icon-checkbox-unchecked"></use>
+            </svg>
+            <p>120 x 180</p>
+          </div>
+
+          <div class="topseller__price">
+            <svg class="price__icon">
+              <use xlink:href="img/sprite.svg#icon-coin-dollar"></use>
+            </svg>
+            <p>$1,00,000</p>
+          </div>
+          <button class="btn topseller__btn">Buy Now</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial" id="testimonial">
+             <div class="testimonial__content">
+              <div class="testimonial__information">
+                <h3 class="testimonial__heading heading-3">Testimonial</h3>
+                <img src="../src/img/user.png" alt="user photo" class="testimonial__user-img">
+                <p class="testimonial__text">"I bought an amazing artpiece from Artology for my office. It has completely transformed my workplace into a warm and welcoming space, also supporting an extraordinary local artist.If you are looking for an artpiece with touch of luxury , I recommend giving Artology a visit."</p>
+                <p class="testomonial__user-name"><i>- Shayana Smith</i></p>
+              </div>
+             </div>
+      </div>
+    </section>
+
+<section class="gallery" id="gallery">
+  <h3 class="gallery__heading heading-3">Inspiration</h3>
+    <div class="gallery__items">
+      <figure class="gallery__item gallery__item--1"><img src="img/gal-1.jpg" alt="Image 1" class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--2"><img src="img/gal-2.jpg" alt="Image 2" class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--3"><img src="img/gal-3.jpg" alt="Image 3" class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--4"><img src="img/gal-4.jpg" alt="Image 4" class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--5"><img src="img/gal-5.jpg" alt="Image 5" class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--6"><img src="img/gal-6.jpg" alt="Image 6" class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--7"><img src="img/gal-7.jpg" alt="Image 7" class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--8"><img src="img/gal-8.jpg" alt="Image 8" class="gallery__img"></figure>
+      <figure class="gallery__item gallery__item--9"><img src="img/gal-9.jpg" alt="Image 9" class="gallery__img"></figure>
+   </div>
+</section>
+
+    <footer class="footer">
+      <a href="#" class="footer__logo-link">
+        <img src="img/logo-small.png" alt="Artology logo" class="footer__logo" />
+      </a>
+      <ul class="footer__nav">
+        <li class="footer__nav__item"><a href="#" class="footer__nav__link">Home</a></li>
+        <li class="footer__nav__item"><a href="#topsellers" class="footer__nav__link">Top Sellers</a></li>
+        <li class="footer__nav__item"><a href="#" class="footer__nav__link">Sell Your Art</a></li>
+        <li class="footer__nav__item"><a href="#" class="footer__nav__link">Work With Us</a></li>
+        <li class="footer__nav__item"><a href="#" class="footer__nav__link">Contact Us</a></li>
+      </ul>
+      <p class="copyright">&copy; Copyright 2023 Artology Pty. Ltd.</p>
+    </footer>
+  </body>
+</html>

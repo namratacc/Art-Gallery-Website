@@ -1,0 +1,71 @@
+.header {
+  grid-column: full-start/ full-end;
+  background-image: linear-gradient(
+      rgba($color-secondary, 0.6),
+      rgba($color-secondary, 0.6)
+    ),
+    url(../img/art-1.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 4rem;
+  padding-top: 0;
+
+  display: grid;
+  grid-template-rows: 1fr min-content 6rem 1fr;
+  grid-template-columns: max-content;
+  row-gap: 1.5rem;
+  justify-content: center;
+
+  &__logo-link {
+    justify-self: center;
+    align-content: center;
+  }
+
+  &__logo {
+    height: 10rem;
+  }
+
+  &__seenon-text {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+    align-items: center;
+    font-size: 1.8rem;
+    color: #999;
+
+    &::before,
+    &::after {
+      content: "";
+      height: 1px;
+      display: block;
+      background-color: currentColor;
+    }
+  }
+
+  &__seenon-logos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    justify-content: center;
+
+    &-1,
+    &-4 {
+      filter: brightness(70%);
+    }
+
+    img {
+      height: 25%;
+      justify-self: center;
+
+      @media only screen and (max-width: $bp-medium) {
+        height: 15%;
+      }
+    }
+  }
+
+  &__btn {
+    align-self: start;
+    justify-self: start;
+    margin-top: 2.5rem;
+  }
+}

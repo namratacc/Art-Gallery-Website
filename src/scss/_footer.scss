@@ -1,0 +1,38 @@
+.footer {
+  background-color: $color-secondary-dark;
+  grid-column: full-start/ full-end;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__logo {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  &__nav {
+    display: flex;
+    gap: 7rem;
+
+    list-style: none;
+
+    &__link:link,
+    &__link:visited {
+      font-size: 1.8rem;
+      color: #fff;
+      font-family: $font-secondary;
+      text-decoration: none;
+      text-align: center;
+
+      @media only screen and (max-width: $bp-medium) {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
+
+.copyright {
+  color: rgba(#fff, 0.5);
+}
